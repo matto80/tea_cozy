@@ -12,12 +12,12 @@ body {
 
 }
 
-/*
 .full_body_div {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-*/
 
 .fixed-header {
   display: flex;
@@ -116,3 +116,43 @@ a:visited {
   font-family: Helvetica;
   padding: 10px 0;
 }
+
+.middle_container {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.middle_text {
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.featured_teas {
+  padding: 20px;
+}
+
+.teas_of_the_month {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.small_images {
+  width: 300px;
+  height: 200px;
+  margin: 15px 15px 30px 15px;
+}
+
+/*
+.image_and_title {
+  display: flex;
+  justify-content: center;
+}
+*/
