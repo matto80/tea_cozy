@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tea Cozy</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <!-- Start 'Fixed Header'></!-->
+    <div class="fixed-header">
+      <div class="logo-space">
+        <img class="logo-image" src="images/img-tea-cozy-logo.png" alt="the words 'Tea Cozy' in script">
+      </div>
+      <div class="nav-list_div">
+        <ul class="nav-list">
+          <li><a href="https://en.wikipedia.org/Mission">Mission</a></li>
+          <li><a href="#">Featured Teas</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- End 'Fixed Header'></!-->
+
+    <!-- Start 'Hero Image Section'></!-->
+  <div class="background-container">
+   <div class="background-image">
+    <img class="hero-image" src="images/img-mission-background.jpg" alt="overhead image of open glass jar with colourful tea leaves">
+   </div> 
+    <!-- End 'Hero Image Section'></!-->
+
+    <!-- Start 'Section'></!-->
+    <div class="banner">
+      <h2>Our Mission</h2>
+      <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+    </div>
+  </div>
+    <!-- End 'Section'></!--> 
+
+
+    <!-- Start 'Section'></!-->
+    <!-- End 'Section'></!--> 
+
+  </body>
+</html>
