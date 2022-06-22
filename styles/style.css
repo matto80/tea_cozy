@@ -118,7 +118,7 @@ a:visited {
 }
 
 .middle_container {
-  width: 1000px;
+  max-width: 1000px;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -138,21 +138,25 @@ a:visited {
 }
 
 .teas_of_the_month {
-  width: 1000px;
+  max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
 }
 .small_images {
-  width: 300px;
-  height: 200px;
-  margin: 15px 15px 30px 15px;
+  flex-shrink: 4;
+  //max-width: 300px;
+  max-height: 200px;
+  margin: 16px;
+  
 }
 
-/*
+
 .image_and_title {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  flex-shrink: 1;
 }
-*/
